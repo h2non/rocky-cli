@@ -4,7 +4,7 @@ const fs      = require('fs')
 const toml    = require('toml')
 const assign  = require('lodash').assign
 const findup  = require('findup-sync')
-const version = require('../package.json').version
+const version = require('rocky').VERSION
 
 const configFile = 'rocky.toml'
 

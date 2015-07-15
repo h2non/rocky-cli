@@ -1,4 +1,4 @@
-# rocky [![Build Status](https://api.travis-ci.org/h2non/rocky-cli.svg?branch=master&style=flat)](https://travis-ci.org/h2non/rocky) [![Code Climate](https://codeclimate.com/github/h2non/rocky/badges/gpa.svg)](https://codeclimate.com/github/h2non/rocky) [![NPM](https://img.shields.io/npm/v/rocky-cli.svg)](https://www.npmjs.org/package/rocky) ![Downloads](https://img.shields.io/npm/dm/rocky-cli.svg)
+# rocky [![Build Status](https://api.travis-ci.org/h2non/rocky-cli.svg?branch=master&style=flat)](https://travis-ci.org/h2non/rocky-cli) [![NPM](https://img.shields.io/npm/v/rocky-cli.svg)](https://www.npmjs.org/package/rocky-cli)
 
 Featured **command-line** interface for **[rocky](https://github.com/h2non/rocky)** `+0.2` programmatic HTTP/S proxy.
 
@@ -12,8 +12,8 @@ npm install -g rocky
 
 ### Standalone binaries
 
-- [linux-x64](https://github.com/h2non/rocky/releases/download/0.2.5/rocky-0.2.5-linux-x64.nar)
-- [darwin-x64](https://github.com/h2non/rocky/releases/download/0.2.5/rocky-0.2.5-darwin-x64.nar)
+- [linux-x64](https://github.com/h2non/rocky-cli/releases/latest)
+- [darwin-x64](https://github.com/h2non/rocky-cli/releases/latest)
 
 Packaged using [nar](https://github.com/h2non/nar). Shipped with node.js `0.12.7`
 
