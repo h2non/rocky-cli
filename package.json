@@ -36,7 +36,6 @@
   },
   "dependencies": {
     "findup-sync": "^0.2.1",
-    "lodash": "^3.9.3",
     "morgan": "^1.6.1",
     "rocky": "^0.2.5",
     "toml": "^2.2.3",
