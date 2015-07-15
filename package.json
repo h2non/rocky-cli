@@ -1,0 +1,53 @@
+{
+  "name": "rocky-cli",
+  "version": "0.1.0",
+  "description": "Command-line interface for rocky HTTP/S proxy",
+  "repository": "h2non/rocky-cli",
+  "author": "Tomas Aparicio",
+  "license": "MIT",
+  "keywords": [
+    "http",
+    "proxy",
+    "http-proxy",
+    "reverse",
+    "migration",
+    "migrate",
+    "repeat",
+    "replay",
+    "forward",
+    "traffic",
+    "gateway",
+    "router",
+    "middleware",
+    "intercept",
+    "command",
+    "cli"
+  ],
+  "bin": {
+    "rocky": "./bin/rocky"
+  },
+  "engines": {
+    "node": ">= 0.12"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --timeout 5000 --reporter spec --ui tdd test/*",
+    "start": "./bin/rocky",
+    "nar": "nar create -e --os linux --arch x64 && nar create -e --os darwin --arch x64"
+  },
+  "dependencies": {
+    "findup-sync": "^0.2.1",
+    "lodash": "^3.9.3",
+    "morgan": "^1.6.1",
+    "rocky": "^0.2.5",
+    "toml": "^2.2.3",
+    "yargs": "^3.12.0"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "fw": "^0.1.2",
+    "mocha": "^2.2.5",
+    "request": "^2.58.0",
+    "sinon": "^1.15.3",
+    "supertest": "^1.0.1"
+  }
+}
