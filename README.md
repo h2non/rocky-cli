@@ -1,6 +1,6 @@
 # rocky [![Build Status](https://api.travis-ci.org/h2non/rocky-cli.svg?branch=master&style=flat)](https://travis-ci.org/h2non/rocky-cli) [![NPM](https://img.shields.io/npm/v/rocky-cli.svg)](https://www.npmjs.org/package/rocky-cli)
 
-Featured **command-line** interface for **[rocky](https://github.com/h2non/rocky)** programmatic HTTP/S proxy, to easily setup a versatile HTTP proxy from a TOML [configuration file](#configuration-file)
+Featured command-line interface for **[rocky](https://github.com/h2non/rocky)** programmatic HTTP/S proxy, to easily setup a versatile HTTP proxy from a TOML [configuration file](#configuration-file)
 
 ## Installation
 
