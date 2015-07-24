@@ -1,7 +1,7 @@
 {
   "name": "rocky-cli",
-  "version": "0.1.1",
-  "description": "Command-line interface for rocky HTTP/S proxy",
+  "version": "0.1.2",
+  "description": "Featured command-line interface for rocky",
   "repository": "h2non/rocky-cli",
   "author": "Tomas Aparicio",
   "license": "MIT",
@@ -38,7 +38,7 @@
     "findup-sync": "^0.2.1",
     "morgan": "^1.6.1",
     "object-assign": "^3.0.0",
-    "rocky": "^0.2.5",
+    "rocky": "^0.3.0",
     "toml": "^2.2.3",
     "yargs": "^3.12.0"
   },
