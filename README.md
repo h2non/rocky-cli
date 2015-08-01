@@ -17,9 +17,9 @@ npm install -g rocky
 
 Packaged using [nar](https://github.com/h2non/nar). Shipped with node.js `0.12.7`
 
-#### Build you own binaries
+#### Build your own binaries
 
-For an up-to-date binaries, follow the next steps:
+To build an up-to-date binaries, just follow the next steps:
 
 ```bash
 npm install -g nar
