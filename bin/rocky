@@ -44,6 +44,10 @@ const argv = require('yargs')
       alias: 'e',
       description: 'Path to SSL certificate file'
     },
+    ca: {
+      alias: 'a',
+      description: 'CA certificate file'
+    },
     secure: {
       alias: 's',
       description: 'Enable SSL certification validation',
@@ -92,8 +96,11 @@ function start() {
 function startProxy(opts) {
   if (opts.cert && opts.key) {
     opts.ssl = {
-      cert: fs.readFileSync(opts.cert, 'utf8'),
-      key: fs.readFileSync(opts.key, 'utf8')
+      cert: fs.readFileSync(opts.cert),
+      key: fs.readFileSync(opts.key)
+    }
+    if (opts.ca) {
+      opts.ssl.ca = fs.readFileSync(opts.ca)
     }
   }
 
