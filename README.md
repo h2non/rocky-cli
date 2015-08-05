@@ -40,11 +40,11 @@ npm run nar
 ##### Usage
 
 ```
-chmod +x rocky-0.2.1-linux-x64.nar
+chmod +x rocky-cli-0.1.4-linux-x64.nar
 ```
 
 ```
-./rocky-0.2.1-linux-x64.nar exec --port 3000 --config rocky.toml
+./rocky-cli-0.1.4-linux-x64.nar exec --port 3000 --config rocky.toml
 ```
 
 ## Usage
