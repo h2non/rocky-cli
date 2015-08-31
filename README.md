@@ -7,7 +7,7 @@ Works with rocky +0.3
 ## Installation
 
 ```bash
-npm install -g rocky
+npm install -g rocky-cli
 ```
 
 ### Standalone binaries
